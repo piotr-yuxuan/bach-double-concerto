@@ -2,7 +2,7 @@
 
 rightB =  \relative c' {
     f4. g8 a e cis r |
-    r fis16 g a8 d, g16 fis g a g f e d |
+    r fis16 g a8 d, g16 fis? g a g f e d |
     cis d e f g a bes g a8 cis, d8 g |
     <d f>4 <cis e> d8 a ~ a16 b c d |
     e8 c a4 b8 e gis4 |
@@ -14,7 +14,7 @@ rightB =  \relative c' {
     r a a, a' r d, g b, |
     c cis4 d8 e e f bes, |
     a f' bes g a16 g f e d e f g |
-    a8 e r a d, fis g fis |
+    a8 e r a d, fis a fis |
     d g r d ~ d16 g, a b c d es f |
     es d c bes! a bes c a a' g fis e d c bes a |
     bes d cis d e8 d ~ d e16 f g a g a |
@@ -29,7 +29,7 @@ rightB =  \relative c' {
     <cis g'>8 r <d f>8 r <cis e>8 r r4 |
     <f a d>8 r <a cis e> r <a d f> r r4 |
     <g d' g>8 r <a d fis> r <bes d g> r r4 |
-    <e bes>8 r <e a>8 r <d a>8 r <d g>8 r |
+    <e bes>8 r <e a,>8 r <d a>8 r <d g,>8 r |
     <cis g'>8 r <d f>8 r <a e'>8 r r4 |
     d,16\f e f g a8 d b g r4 |
     c,16 d e f g8 c a f r4 |

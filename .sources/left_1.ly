@@ -2,7 +2,7 @@
 
 leftB =  \relative c' {
     d,8 d' c bes a16 g a bes a g f e |
-    d c d es d c bes a g2 ~ |
+    d c? d es d c bes a g2 ~ |
     g2 ~ g8 f16 e f8 bes |
     a g a a, d  d'[ c b] |
     a a' g f e16 d e f e d c b |
@@ -68,7 +68,7 @@ leftB =  \relative c' {
     r8 c, b g c,  c'16[ d es8 c] |
     f es'16 d c8 a bes f'16 es f8 bes,,16 c |
     d8 fis'16 e d8 d, g d'16 c bes8 e, |
-    a \clef "treble" a' e \clef "bass" a, d, d'16 cis d8 d,16 es |
+    a a'^\markup { \italic \small "la" } e a, d, d'16 cis d8 d,16 es |
     f8 c'16 d es8 f, bes8 d16 e d8 bes16 a |
     g8 r r e f r r d |
     e r r a, d a d, f |
