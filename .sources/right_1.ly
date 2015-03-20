@@ -85,7 +85,7 @@ rightB =  \relative c' {
     <cis g'>8 r <d f>8 r <cis e>8 r r4 |
     <f a d>8 r <a cis e> r <a d f> r r4 |
     <g d' g>8 r <a d fis> r <bes d g> r r4 |
-    <e bes>8 r <e a>8 r <d a>8 r <d g>8 r |
+    <e bes>8 r <e a,>8 r <d a>8 r <d g,>8 r |
     <cis g'>8 r <d f>8 r <a e'>8 r r4 |
     d16\f e f g a8 << { d8 cis a e g } \\ { <f a>8 <e a> <cis e> <a cis>4 } >> |
     <a  d fis>8 a, a' d, r8 d' d, g |

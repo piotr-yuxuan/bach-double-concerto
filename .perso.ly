@@ -7,6 +7,7 @@
 
 \paper {
   #(set-paper-size "a4")
+  %left-margin = 1.5\cm Don't put here but whenever you use short instrument names.
 }
 
 \layout {

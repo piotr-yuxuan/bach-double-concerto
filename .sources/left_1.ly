@@ -60,7 +60,7 @@ leftB =  \relative c' {
     g16 a bes c d8 g fis d a c |
     b g f'4.  e16[ d e8 c] |
     a c es g, fis d' g, es' |
-    d c d d, g  bes'[\p fis d] |
+    d c d d, g  g'[\p fis d] |
 
     g8 r r4 r2 |
     r8 g fis d g,  g'16[ a bes8 b] |

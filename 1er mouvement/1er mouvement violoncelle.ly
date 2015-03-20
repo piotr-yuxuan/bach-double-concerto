@@ -3,8 +3,6 @@
 \include "../.perso.ly"
 
 \include "../.sources/solo_violin1_1.ly"
-\include "../.sources/solo_violin2_1.ly"
-\include "../.sources/right_1.ly"
 \include "../.sources/left_1.ly"
 \include "../.sources/marks.ly"
 
@@ -23,40 +21,20 @@ ViolinIPartI = \new Staff \with {
   \soloViolinBB
 }
 
-ViolinIIPartI = \new Staff \with {
-  instrumentName = "Violon II"
-  midiInstrument = "violin"
-  fontSize = #-3
-  \override StaffSymbol.staff-space = #(magstep -3)
-  \override StaffSymbol.thickness = #(magstep -3)
-} \relative c'' {
-  \globalI-violin
-  \soloViolinCB
-}
-
-PianoPartI = \new PianoStaff \with {
-  instrumentName = "Piano"
-} <<
-  \new Staff = "right" \with {
-    midiInstrument = "acoustic grand"
-  } \relative c'' {
-    \globalI-piano
-    \rightB
-  }
-  \new Staff = "left" \with {
-    midiInstrument = "acoustic grand"
-  } { \clef bass \relative c' {
+CelloPartI = \new Staff = "left" \with {
+  instrumentName = "Violoncelle"
+} {
+  \clef bass \relative c' {
     \globalI-piano
     \leftB
-  }}
->>
+  }
+}
 
 PartI = \score {
   <<
     \ViolinIPartI
-    \ViolinIIPartI
-    \PianoPartI
     \Marks
+    \CelloPartI
   >>
   \header {
     piece = "Vivace"

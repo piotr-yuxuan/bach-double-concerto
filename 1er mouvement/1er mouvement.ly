@@ -1,15 +1,21 @@
-\version "2.18.2"
+\version "2.19.16"
 
 \include "../.perso.ly"
+
+\paper {
+  left-margin = 1.5\cm
+}
 
 \include "../.sources/solo_violin1_1.ly"
 \include "../.sources/solo_violin2_1.ly"
 \include "../.sources/right_1.ly"
 \include "../.sources/left_1.ly"
+\include "../.sources/marks.ly"
 
 ViolinIPartI = \new Staff \with {
   instrumentName = "Violon I"
   midiInstrument = "violin"
+  shortInstrumentName = "Vl. I"
 } \relative c' {
   \globalI-violin
   \soloViolinBB
@@ -17,6 +23,7 @@ ViolinIPartI = \new Staff \with {
 
 ViolinIIPartI = \new Staff \with {
   instrumentName = "Violon II"
+  shortInstrumentName = "Vl. II"
   midiInstrument = "violin"
 } \relative c'' {
   \globalI-violin
@@ -25,6 +32,7 @@ ViolinIIPartI = \new Staff \with {
 
 PianoPartI = \new PianoStaff \with {
   instrumentName = "Piano"
+  shortInstrumentName = "Pno"
 } <<
   \new Staff = "right" \with {
     midiInstrument = "acoustic grand"
@@ -49,6 +57,7 @@ PianoPartI = \new PianoStaff \with {
     \ViolinIPartI
     \ViolinIIPartI
     \PianoPartI
+    \Marks
   >>
   \header {
     piece = "Vivace"
@@ -60,6 +69,6 @@ PianoPartI = \new PianoStaff \with {
     }
   }
   \midi {
-    \tempo 4 = 100
+    \tempo 4 = 85
   }
 }

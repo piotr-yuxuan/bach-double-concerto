@@ -22,7 +22,6 @@ soloViolinBB =  \relative c' {
     fis d c'!4. b16 a b8 g |
     e g bes! d, cis a' d, g |
     f4 e\trill d8  c!16[ bes!] a g f e |
-    \mark \default
     f8-"solo" a' e, g' d,16 g' f e d c bes a |
     bes8 d' a, c' g,16 c' bes a g f e d |
     e bes' a g a e d cis d a' g f g d cis! b |
@@ -51,7 +50,6 @@ soloViolinBB =  \relative c' {
     cis a g'!4 ~ g8 fis16 e fis8 d |
     b d f! a, gis e' a, d |
     c4 b\trill a r16 f^"solo" e d |
-    \mark \default
     c8 a' d, b' c, a' b, gis' c, a' e b' c a r16 g' f e |
     d( f  a) d e,( g  a) cis d a f d cis( e  g) a |
     d,( f  a) d e,( g  a) cis d a f d d,^"tutti" e f d |
@@ -61,7 +59,6 @@ soloViolinBB =  \relative c' {
     a2 ~ a16 g fis e d c bes a |
     %58
     bes8. c16 a8. g16 g  g'[^"solo" fis e]  d[ c bes a] |
-    \mark \default
     g( bes  d) g a,( c  d) fis g d bes g fis( a  c) d |
     g,( bes  d) g a,( c  d) fis g d bes g g,  as'[ g f] |
     es8 c' f, d' es, c' d, b' |
@@ -73,7 +70,6 @@ soloViolinBB =  \relative c' {
     %67
     e,!16( f  g) bes cis bes' a g f,( g  a) cis d a' g f |
     g,( a  cis) d e g f e a,( cis  d) e f8 d ~ |
-    \mark \default
     d g16 a bes8 g, ~ g16 f e d c8 c' ~ |
     c f16 g a8 f, ~ f16 es d c bes8 bes' ~ |
     bes16 c bes a g f e! d c d' c bes a g fis e |
@@ -82,7 +78,6 @@ soloViolinBB =  \relative c' {
     cis' e, f g a bes c a d, a' c8 ~ c16 a fis d |
     bes'8  g[ d d'] ~ d a16 f d4 ~ |
     d8  bes[ g g'] ~ g e16 cis a g f e |
-    \mark \default
     %77
     f8 a' e, g' d,16 g' f e d c bes a |
     bes8 d' a, c' g,16 c' bes a g f e d |

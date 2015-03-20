@@ -41,7 +41,6 @@ soloViolinCB =  \relative c' {
     gis' b, c d e fis g e a, e' g8 ~ g16 e cis a |
     f'8  d[ a a'] ~ a e16 c a4 ~ |
     a8  f[ d d'] ~ d b16 gis e d c b |
-    \mark \default
     c8 e' b, d' a,16 d' c b a g f e |
     f8 a' e, g' d,16 g' f e d c b a |
     b f' e d e b a gis a e' d c d a gis! fis |

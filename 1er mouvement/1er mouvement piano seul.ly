@@ -1,9 +1,10 @@
-\version "2.18.2"
+\version "2.19.16"
 
 \include "../.perso.ly"
 
 \include "../.sources/right_1.ly"
 \include "../.sources/left_1.ly"
+\include "../.sources/marks.ly"
 
 PianoPartI = \new PianoStaff \with {
   instrumentName = "Piano"
@@ -29,6 +30,7 @@ PianoPartI = \new PianoStaff \with {
 \score {
   <<
     \PianoPartI
+    \Marks
   >>
   \header {
     piece = "Vivace"
@@ -38,8 +40,5 @@ PianoPartI = \new PianoStaff \with {
     \context {
       \Staff \RemoveEmptyStaves
     }
-  }
-  \midi {
-    \tempo 4 = 100
   }
 }
